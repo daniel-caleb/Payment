@@ -33,7 +33,7 @@ h1{
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 5rem 10rem;
+    padding: 2rem 5rem;
 }
 h2{
     position: absolute;
@@ -84,7 +84,7 @@ h3,img{
     padding: 1.5rem;
     border-top: darkslategray;
     font-size: 2rem;
-    color: #f1931f;
+    color: #ffffff;
     text-transform: capitalize;
     background: linear-gradient(-90deg, #101010e3, #2f3523, #294832de, #2c4426fe);
 }
