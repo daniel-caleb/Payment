@@ -37,7 +37,7 @@ h1{
 }
 h2{
     position: absolute;
-    top: 13%;
+    top: 85%;
     left: 30%;
     font-size: 22px;
 }
@@ -49,19 +49,18 @@ h4{
     font-size: 18px;
 }
 h3{
-    font-size: 5rem;
-    text-transform: uppercase;
+    font-size: 20px;
     letter-spacing: 2px;
     border: 3px solid #fff;
-    background-image: url(IMG_8172.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 5rem 10rem;
+}
+h3,img{
+    border-radius: 100%;
+    border-color: #2d232302;
 }
 
 @keyframes change {
@@ -87,7 +86,7 @@ h3{
     font-size: 2rem;
     color: #f1931f;
     text-transform: capitalize;
-    background: linear-gradient(-45deg, #122011, #638137, #000000, #083608);
+    background: linear-gradient(-90deg, #101010e3, #2f3523, #294832de, #2c4426fe);
 }
 .footer .credit span{
     color: #d1f143;
