@@ -1,0 +1,94 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: "Lato", Arial, Sans-serif;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    color: antiquewhite;
+    background: linear-gradient(-45deg, #39f52f, #638137, #000000, #dedfde);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 3px solid #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 10rem;
+}
+h2{
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    font-size: 22px;
+}
+h4{
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    text-align: center;
+    font-size: 18px;
+}
+h3{
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 3px solid #fff;
+    background-image: url(IMG_8172.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 10rem;
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+
+.footer{
+    padding-bottom: 1rem;
+}
+.footer .credit{
+    text-align: center;
+    padding: 1.5rem;
+    border-top: darkslategray;
+    font-size: 2rem;
+    color: #f1931f;
+    text-transform: capitalize;
+    background: linear-gradient(-45deg, #39f52f, #638137, #000000, #dedfde);
+}
+.footer .credit span{
+    color: #1df3f3;
+}
