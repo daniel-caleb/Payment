@@ -38,7 +38,7 @@ h1{
 h2{
     position: absolute;
     top: 85%;
-    left: 30%;
+    left: 19%;
     font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -85,11 +85,11 @@ h3,img{
 
 
 .footer{
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 .footer .credit{
     text-align: center;
-    padding: 1.5rem;
+    padding: 1.0rem;
     border-top: darkslategray;
     font-size: 13px;
     color: #ffffff;
